@@ -13,8 +13,15 @@ export function findById(id) {
   //
 }
 
-export function insert() {
-  //
+export function insert(data) {
+  const { name, age } = data;
+
+  const stmt = database.prepare(`
+        INSERT INTO persons (name, age) 
+        VALUES (?, ?)
+    `);
+
+  return stmt.run(name, age);
 }
 
 export function update() {
