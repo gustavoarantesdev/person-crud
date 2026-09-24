@@ -5,3 +5,19 @@ export function getAll(req, res) {
 
   res.json(persons);
 }
+
+export function getById(req, res) {
+  //
+}
+
+export function create(req, res) {
+  //
+}
+
+export function update(req, res) {
+  //
+}
+
+export function destroy(req, res) {
+  //
+}
