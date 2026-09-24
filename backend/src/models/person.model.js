@@ -8,3 +8,19 @@ export function findAll() {
 
   return stmt.all();
 }
+
+export function findById(id) {
+  //
+}
+
+export function insert() {
+  //
+}
+
+export function update() {
+  //
+}
+
+export function destroy() {
+  //
+}
